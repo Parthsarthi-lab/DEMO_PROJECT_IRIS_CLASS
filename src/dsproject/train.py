@@ -19,7 +19,7 @@ def train(cfg: Config):
 
     logger.info('Splitting data...')
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=cfg.test_size, random_state=cfg.random_state, stratify=y
+        X, y, test_size=cfg.test_size, random_state=cfg.random_state
     )
 
     logger.info('Building pipelines...')

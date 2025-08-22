@@ -1,9 +1,8 @@
-# Iris Modular Project (Beginner-Friendly, Conda, No-Argparse, No-Tests)
+# Iris Modular Project 
 
 Quickstart:
 
 ```
-conda env create -f environment.yml
 conda activate iris-modular
 python scripts/train.py
 python scripts/predict.py

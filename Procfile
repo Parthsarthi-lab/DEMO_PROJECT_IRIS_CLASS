@@ -1,1 +1,1 @@
-web: streamlit run app/streamlit_app.py --server.port=8000 --server.address=0.0.0.0
+web: PYTHONPATH=src streamlit run app/streamlit_app.py --server.port=8000 --server.address=0.0.0.0
