@@ -1,6 +1,6 @@
 import streamlit as st
 from pathlib import Path
-from dsproject.predict import load_model, predict_single
+from src.dsproject.predict import load_model, predict_single
 
 MODEL_PATH = Path('artifacts/model/model.joblib')
 
